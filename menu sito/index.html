@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Only Navigation Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<label for="show-menu" class="show-menu">Show Menu</label>
+<input type="checkbox" id="show-menu" role="button">
+
+<body>
+	<ul id="menu">
+		<li><a href="#">Home</a></li>
+		<li>
+			<a href="#">Gestione</a>
+			<ul class="hidden">
+				<li><a href="#">Gestione Personale</a></li>
+				<li><a href="#">Gestione Piante</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Query</a>
+			<ul class="hidden">
+				<li><a href="#">Query1</a></li>
+				<li><a href="#">Query2</a></li>
+				<li><a href="#">Query3</a></li>
+			</ul>
+		</li>
+	<!--	<li><a href="#">News</a></li>
+		<li><a href="#">Contact</a></li>-->
+	</ul>
+</body>
+</html>
